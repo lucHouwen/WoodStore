@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nice Animated Input Labels</title>
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+<style>
+/*
+Basic input element using psuedo classes
+*/
+
+
+
+
+
+html {
+  font-family: 'roboto', sans-serif;
+  width: 100%;
+}
+
+body {
+  margin: 0 auto 0 auto;
+
+}
+.container {  max-width: 1125px;width: 90%; margin:0 auto}
+h1 {
+  font-size: 28px;
+  margin-top:150px;
+  margin-bottom: 2.5%;
+}
+
+input, span, label, textarea {
+  font-family: 'roboto', sans-serif;
+  display: block;
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  font-size: 22px;
+}
+
+textarea:focus, input:focus { outline: 0; }
+
+/* Question */
+
+
+
+input.question, textarea.question {
+  font-size: 48px;
+  font-weight: 300;
+  border-radius: 2px;
+  margin: 0;
+  border: none;
+  width: 80%;
+  background: rgba(0, 0, 0, 0);
+  transition: padding-top 0.2s ease, margin-top 0.2s ease;
+  overflow-x: hidden; /* Hack to make "rows" attribute apply in Firefox. */
+}
+
+/* Underline and Placeholder */
+
+
+
+input.question + label, textarea.question + label {
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  width: 10%;
+  border-top: 1px solid red;
+  -webkit-transition: width 0.4s ease;
+  transition: width 0.4s ease;
+  height: 0px;
+}
+
+input.question:focus + label, textarea.question:focus + label { width: 80%; }
+ input.question:focus, input.question:valid {
+ padding-top: 35px;
+}
+ textarea.question:valid, textarea.question:focus {
+ margin-top: 35px;
+}
+ input.question:focus + label > span, input.question:valid + label > span {
+ top: -100px;
+ font-size: 22px;
+ color: #333;
+}
+ textarea.question:focus + label > span, textarea.question:valid + label > span {
+ top: -150px;
+ font-size: 22px;
+ color: #333;
+}
+ input.question:valid + label, textarea.question:valid + label {
+ border-color: green;
+}
+ input.question:invalid, textarea.question:invalid {
+ box-shadow: none;
+}
+
+input.question + label > span, textarea.question + label > span {
+  font-weight: 300;
+  margin: 0;
+  position: absolute;
+  color: #8F8F8F;
+  font-size: 48px;
+  top: -66px;
+  left: 0px;
+  z-index: -1;
+  -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+  transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+}
+
+input[type="submit"] {
+  -webkit-transition: opacity 0.2s ease, background 0.2s ease;
+  transition: opacity 0.2s ease, background 0.2s ease;
+  display: block;
+  opacity: 0;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover { background: #EEE; }
+
+input[type="submit"]:active { background: #999; }
+ input.question:valid ~ input[type="submit"], textarea.question:valid ~ input[type="submit"] {
+ -webkit-animation: appear 1s forwards;
+ animation: appear 1s forwards;
+}
+ input.question:invalid ~ input[type="submit"], textarea.question:invalid ~ input[type="submit"] {
+ display: none;
+}
+ @-webkit-keyframes 
+appear { 100% {
+ opacity: 1;
+}
+}
+ @keyframes 
+appear { 100% {
+ opacity: 1;
+}
+}
+</style>
+</head>
+
+<body><div id="css-script-menu">
+  <div class="css-script-center">
+    <ul>
+      <li><a href="http://www.cssscript.com/nice-animated-input-labels-with-pure-css/">Download</a></li>
+      <li><a href="http://www.cssscript.com/">Back To CSS Script</a></li>
+    </ul>
+    <div class="css-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* CSSScript Demo Page */
+google_ad_slot = "3025259193";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+      <script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+    <div class="css-script-clear"></div>
+  </div>
+</div>
+<div class="container">
+<h1>Nice Animated Input Labels</h1>
+<form>
+  <input type="text" name="name" class="question" id="nme" required autocomplete="off" />
+  <label for="nme"><span>What's your name?</span></label>
+  <textarea name="message" rows="2" class="question" id="msg" required autocomplete="off"></textarea>
+  <label for="msg"><span>What's your message?</span></label>
+  <input type="submit" value="Submit!" />
+</form>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46156385-1', 'cssscript.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

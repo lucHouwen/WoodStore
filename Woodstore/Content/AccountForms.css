@@ -1,0 +1,142 @@
+﻿/* Basics */
+    html, body {
+        width: 100%;
+        height: 100%;
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        color: #444;
+        -webkit-font-smoothing: antialiased;
+        /*background: #f0f0f0;*/
+    }
+
+    #container {
+        position: fixed;
+        width: 340px;
+        height: 280px;
+        top: 50%;
+        left: 50%;
+        margin-top: -140px;
+        margin-left: -170px;
+        background: hsla(120, 100%, 75%, 0.2);
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+    }
+
+    form {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    label {
+        color: #fff;
+        display: inline-block;
+        margin-left: 18px;
+        padding-top: 1px;
+        font-size: 14px;
+    }
+
+    p a {
+        font-size: 11px;
+        color: #aaa;
+        float: right;
+        margin-top: -13px;
+        margin-right: 20px;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        transition: all .4s ease;
+    }
+
+        p a:hover {
+            color: #555;
+        }
+
+    input {
+        font-family: "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 16px;
+        outline: none;
+    }
+
+        input[type=text],
+        input[type=password], input[type=time] {
+            color: #F0A54F;
+            background:#ECFDDD;
+            padding-left: 10px;
+            margin: 10px;
+            margin-top: 12px;
+            margin-left: 18px;
+            width: 290px;
+            height: 35px;
+            border: 1px solid #F7933B;
+            border-radius: 2px;
+            box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #f5f7f8;
+            -webkit-transition: all .4s ease;
+            -moz-transition: all .4s ease;
+            transition: all .4s ease;
+        }
+
+            input[type=text]:hover,
+            input[type=password]:hover, input[type=time]:hover {
+                border: 1px solid #b6bfc0;
+                box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .7), 0 0 0 5px #f5f7f8;
+            }
+
+            input[type=text]:focus,
+            input[type=password]:focus, input[type=time]:focus {
+                border: 1px solid #a8c9e4;
+                box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #F7933B;
+            }
+
+    #lower {
+        /*background: #ecf2f5;*/
+        background: hsla(33, 96%, 64%, 0.2);
+        width: 100%;
+        /*height: 69px;*/
+        margin-top: 20px;
+        box-shadow: inset 0 1px 1px #fff;
+        border-top: 1px solid #ccc;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+    }
+
+    input[type=checkbox] {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .check {
+        margin-left: 3px;
+        font-size: 11px; 
+        color: #444;
+        text-shadow: 0 1px 0 #fff;
+    }
+
+    input[type=submit] {
+        float: right;
+        margin-right: 20px;
+        margin-top: 20px;
+        width: 80px;
+        height: 30px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #F0A54F; /*IE fallback*/
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#F0A54F), to(#F0A54F));
+        background-image: -moz-linear-gradient(top left 90deg, #F0A54F 0%, #F0A54F 100%);
+        background-image: linear-gradient(top left 90deg, #F0A54F 0%, #F0A54F 100%);
+        border-radius: 30px;
+        border: 1px solid #66add6;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5);
+        cursor: pointer;
+    }
+
+        input[type=submit]:hover {
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#F6B974), to(#F6B974));
+            background-image: -moz-linear-gradient(top left 90deg, #F6B974 0%, #F6B974 100%);
+            background-image: linear-gradient(top left 90deg, #F6B974 0%, #F6B974 100%);
+        }
+
+        input[type=submit]:active {
+            background-image: -webkit-gradient(linear, left top, left bottom, from(#D9730D), to(#D9730D));
+            background-image: -moz-linear-gradient(top left 90deg, #D9730D 0%, #D9730D 100%);
+            background-image: linear-gradient(top left 90deg, #D9730D 0%, #D9730D 100%);
+        }

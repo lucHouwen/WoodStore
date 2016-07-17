@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS/CSS3 Fly-out Drawer Menu Demo</title>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="prefixfree.min.js"></script>
+<style>
+/* Resets */
+
+
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Decor */
+
+body { background: #45163E; }
+
+.drawer {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: .4em 0;
+  background: #7D294E;
+  color: white;
+  text-align: center;
+  /* Remove 4px gap between <li> */
+  font-size: 0;
+}
+
+.drawer li {
+  pointer-events: none;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  list-style: none;
+  line-height: 100%;
+  transform: translateZ(0);
+}
+
+.drawer a {
+  pointer-events: auto;
+  position: relative;
+  display: block;
+  min-width: 5em;
+  margin-bottom: .4em;
+  padding: .4em;
+  line-height: 100%;
+  /* Reset font-size */
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  transition: background 0.3s;
+}
+
+.drawer a:active,
+.drawer a:focus { background: #B44659; }
+
+.drawer i {
+  display: block;
+  margin-bottom: .2em;
+  font-size: 2em;
+}
+
+.drawer span {
+  font-size: .625em;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+.drawer li:hover ul {
+  /* Open the fly-out menu */
+  transform: translateX(0);
+  background: #B44659;/* Enable this if you wish to replicate hoverIntent */
+}
+
+.drawer > li { display: block;/* Add a shadow to the top-level link */
+  /* Show the shadow when the link is hovered over */
+  /* Fly out menus */
+}
+
+.drawer > li > a { background: #7D294E; }
+
+.drawer > li:hover { z-index: 100; }
+
+.drawer > li:hover a { background: #B44659; }
+
+.drawer > li a:hover { background: #F56356; }
+
+.drawer > li > a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  width: 4px;
+  opacity: 0;
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(100%, transparent));
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  background: -ms-linear-gradient(left, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.65) 0%, transparent 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=1 );
+  transition: opacity 0.5s;
+}
+
+.drawer > li:hover a:after { opacity: 1; }
+
+.drawer > li ul {
+  position: absolute;
+  /* Stack below the top level */
+  z-index: -1;
+  top: 0;
+  left: 100%;
+  height: 100%;
+  width: auto;
+  white-space: nowrap;
+  /* Close the menus */
+  transform: translateX(-100%);
+  background: #B44659;
+  transition: 0.5s transform;
+}
+</style>
+</head>
+
+<body>
+<ul class="drawer">
+  <li> <a href="#"> <i class="fa fa-info-circle"></i> <span>Home</span> </a>
+    <ul>
+      <li> <a href="#"> <i class="fa fa-question-circle"></i> <span>About</span> </a> </li>
+      <li> <a href="#"> <i class="fa fa-phone-square"></i> <span>Contact</span> </a> </li>
+    </ul>
+  </li>
+  
+  <li> <a href="#"> <i class="fa fa-share-alt"></i> <span>Social</span> </a>
+    <ul>
+      <li> <a href="#"> <i class="fa fa-facebook"></i> <span>Facebook</span> </a> </li>
+      <li> <a href="#"> <i class="fa fa-twitter"></i> <span>Twitter</span> </a> </li>
+      <li> <a href="#"> <i class="fa fa-google-plus"></i> <span>Google+</span> </a> </li>
+      <li> <a href="#"> <i class="fa fa-pinterest"></i> <span>Pinterest</span> </a> </li>
+    </ul>
+  </li>
+</ul>
+<h1 style="color:#fff; margin-left:130px;">CSS/CSS3 Fly-out Drawer Menu Demo</h1>
+<div class="css-script-ads" style="margin:20px 0 0 130px"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* CSSScript Demo Page */
+google_ad_slot = "3025259193";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script> 
+      <script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46156385-1', 'cssscript.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

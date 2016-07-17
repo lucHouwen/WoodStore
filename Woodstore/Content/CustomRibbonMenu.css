@@ -1,0 +1,133 @@
+﻿body {
+}
+
+/*Ribbon menu*/
+
+/*Forked ends*/
+
+/* :before and :after pseudo-elements are used to create empty elements with a thick border. 
+   The border has one edge set to transparent. This leaves the element looking like it had a triangular section removed,
+   creating the forked look.*/
+
+.ribbon{
+     margin-left:6%;
+    /*margin-left:35%;*/
+    margin-top:-8%;
+    text-align:center;
+    font-family:'Segoe Print';
+    font-size: 85%;
+    font-weight:bold;
+}
+
+.ribbon:after, .ribbon:before {
+    margin-top:0.5em;
+    content: "";
+    float:left;
+    /*border:1.5em solid #C3DE88;*/
+}
+
+.ribbon:after {
+    border-right-color:transparent;
+}
+
+.ribbon:before {
+    border-left-color:transparent;
+}
+
+
+
+/*the forked ends are all floated left so that they fit flush against each other. 
+  The hidden overflow hides the folds that are positioned beneath the span elements.*/
+
+.ribbon li { 
+    color:#C3DE88;
+    text-decoration:none;
+    float:left;
+    height:3.5em;
+    /*overflow:hidden;*/
+    width:20%;
+}
+
+
+/*Animated Folds*/
+
+/*A nifty trick for vertically centering text inside of an element is to set the line-height to be the desired height
+  of the element, and remove any vertical padding. This will keep the height fixed and the text centered, 
+  even if the font-face, font-size, or font-weight changes.
+  The top-margin gives the span space to be animated while staying within the anchor element. 
+  The span is given a relative position so that it will be the positioning reference for its absolutely positioned
+  :before and :after pseudo-elements.*/
+
+.ribbon li {
+    background:#C3DE88;
+    display:inline-block;
+    line-height:3em;
+    padding:0 1em;
+    margin-top:0.5em;
+    position:relative;
+
+    -webkit-transition: background-color 0.2s, margin-top 0.2s;  /* Saf3.2+, Chrome */
+    -moz-transition: background-color 0.2s, margin-top 0.2s;  /* FF4+ */
+    -ms-transition: background-color 0.2s, margin-top 0.2s;  /* IE10 */
+    -o-transition: background-color 0.2s, margin-top 0.2s;  /* Opera 10.5+*/ 
+    transition: background-color 0.2s, margin-top 0.2s;
+}
+
+.ribbon :hover{
+    background:#F0A54F;
+    margin-top:0;
+}
+
+/*.ribbon li:before {
+    content: "";
+    position:absolute;
+    top:3em;
+    left:0;
+    border-right:0.5em solid #9B8651;
+    border-bottom:0.5em solid #fff;
+}
+
+.ribbon li:after {
+    content: "";
+    position:absolute;
+    top:3em;
+    right:0;
+    border-left:0.5em solid #9B8651;
+    border-bottom:0.5em solid #fff;
+}*/
+
+
+  #horizontalmenu ul {
+        /*padding: 1px;
+        margin: 1px;
+        list-style:none;*/
+        list-style: none outside none;
+    }
+
+    #horizontalmenu li {
+        /*float: left;*/
+        position: relative;
+        /*padding-right: 100px;*/
+        /*border: 2px solid #C3DE88; 
+        border-style: inset;    Defines the a border arround the menu items     */
+    }
+
+        #horizontalmenu li ul {
+            display: none;
+            /*position: relative;*/
+            /*margin-top:-250px;*/
+        }
+
+        #horizontalmenu li:hover ul {
+            display: block;
+            background: red;
+            height: auto;
+            width: 8em;
+        }
+
+        #horizontalmenu li ul li {
+            /*clear: left; decides on which side NOT to float*/
+            border-style: none;
+            width:200px;
+            border: 1px solid #C3DE88;   /* Defines the a border arround the menu items     */
+        }
