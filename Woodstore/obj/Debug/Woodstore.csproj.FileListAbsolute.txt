@@ -1,244 +1,61 @@
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\obj\Debug\Woodstore.csprojResolveAssemblyReference.cache
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\ApplicationInsights.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\roslyn\csc.exe
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\roslyn\vbc.exe
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\roslyn\VBCSCompiler.exe
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Woodstore.dll.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Woodstore.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Woodstore.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Antlr3.Runtime.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\DatabaseCommunicator.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\EntityFramework.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\EntityFramework.SqlServer.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.AI.Web.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Newtonsoft.Json.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.Helpers.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.Mvc.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.Optimization.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.Razor.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.WebPages.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.WebPages.Razor.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\WebGrease.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\DatabaseCommunicator.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\EntityFramework.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\EntityFramework.SqlServer.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.AI.Web.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.ApplicationInsights.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.Helpers.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.Mvc.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.Optimization.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.Razor.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.WebPages.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\System.Web.WebPages.Razor.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Antlr3.Runtime.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\Newtonsoft.Json.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\obj\Debug\Woodstore.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\obj\Debug\Woodstore.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\ApplicationInsights.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\roslyn\csc.exe
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\roslyn\vbc.exe
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\roslyn\VBCSCompiler.exe
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Woodstore.dll.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Woodstore.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Woodstore.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Antlr3.Runtime.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\DatabaseCommunicator.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\EntityFramework.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\EntityFramework.SqlServer.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.AI.Web.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Newtonsoft.Json.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.Helpers.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.Mvc.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.Optimization.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.Razor.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.WebPages.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.WebPages.Razor.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\WebGrease.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\DatabaseCommunicator.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\EntityFramework.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\EntityFramework.SqlServer.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.AI.Web.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.ApplicationInsights.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.Helpers.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.Mvc.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.Optimization.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.Razor.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.WebPages.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\System.Web.WebPages.Razor.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Antlr3.Runtime.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\Newtonsoft.Json.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\obj\Debug\Woodstore.csprojResolveAssemblyReference.cache
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\obj\Debug\Woodstore.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\obj\Debug\Woodstore.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\WoodStore.mdf
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website\Woodstore\bin\WoodStore_log.ldf
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\WoodStore.mdf
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Copy\Woodstore\bin\WoodStore_log.ldf
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\ApplicationInsights.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\roslyn\csc.exe
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\roslyn\vbc.exe
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\roslyn\VBCSCompiler.exe
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\WoodStore.mdf
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\WoodStore_log.ldf
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Woodstore.dll.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Woodstore.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Woodstore.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Antlr3.Runtime.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\DatabaseCommunicator.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\EntityFramework.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\EntityFramework.SqlServer.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.AI.Web.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Newtonsoft.Json.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.Helpers.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.Mvc.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.Optimization.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.Razor.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.WebPages.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.WebPages.Razor.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\WebGrease.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\DatabaseCommunicator.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\EntityFramework.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\EntityFramework.SqlServer.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.AI.Web.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.ApplicationInsights.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.Helpers.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.Mvc.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.Optimization.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.Razor.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.WebPages.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\System.Web.WebPages.Razor.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Antlr3.Runtime.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\bin\Newtonsoft.Json.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\obj\Debug\Woodstore.csprojResolveAssemblyReference.cache
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\obj\Debug\Woodstore.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore Website - Changed Class Model\Woodstore\obj\Debug\Woodstore.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\ApplicationInsights.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\roslyn\csc.exe
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\roslyn\vbc.exe
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\roslyn\VBCSCompiler.exe
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\WoodStore.mdf
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\WoodStore_log.ldf
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Woodstore.dll.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Woodstore.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Woodstore.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Antlr3.Runtime.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\DatabaseCommunicator.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\EntityFramework.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\EntityFramework.SqlServer.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.AI.Web.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.ApplicationInsights.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Newtonsoft.Json.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.Helpers.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.Mvc.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.Optimization.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.Razor.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.WebPages.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.WebPages.Razor.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\WebGrease.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\DatabaseCommunicator.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\EntityFramework.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\EntityFramework.SqlServer.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.AI.ServerTelemetryChannel.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.AI.Web.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.ApplicationInsights.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.Helpers.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.Mvc.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.Optimization.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.Razor.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.WebPages.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\System.Web.WebPages.Razor.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Antlr3.Runtime.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\bin\Newtonsoft.Json.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\obj\Debug\Woodstore.csprojResolveAssemblyReference.cache
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\obj\Debug\Woodstore.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\Woodstore 2\Woodstore\obj\Debug\Woodstore.pdb
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\ApplicationInsights.config
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\roslyn\csc.exe
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\roslyn\vbc.exe
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\WoodStore.mdf
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\WoodStore_log.ldf
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Woodstore.dll.config
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Woodstore.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Woodstore.pdb
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Antlr3.Runtime.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\DatabaseCommunicator.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\EntityFramework.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\EntityFramework.SqlServer.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.AI.Web.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Newtonsoft.Json.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.Helpers.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.Mvc.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.Optimization.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.Razor.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.WebPages.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\WebGrease.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\DatabaseCommunicator.pdb
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\EntityFramework.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\EntityFramework.SqlServer.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.AI.Web.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.Helpers.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.Mvc.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.Optimization.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.Razor.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.WebPages.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Antlr3.Runtime.pdb
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\bin\Newtonsoft.Json.xml
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\obj\Debug\Woodstore.csprojResolveAssemblyReference.cache
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\obj\Debug\Woodstore.dll
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\Woodstore\obj\Debug\Woodstore.pdb

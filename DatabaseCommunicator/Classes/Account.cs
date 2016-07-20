@@ -10,33 +10,25 @@ namespace DatabaseCommunicator.Classes
         [Key]
         public int AccountID { get; set; }
 
-        [Required]
-        [Index(IsUnique = true)]
+        //[Index(IsUnique = true)]
         public string Username { get; set; }
 
-        [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
 
-        [Required]
         [DataType(DataType.EmailAddress)]
-        [Index(IsUnique = true)]
+        //[Index(IsUnique = true)]
         public string Email { get; set; }
 
-        [Required]
         public string Firstname { get; set; }
 
-        [Required]
         public string Lastname { get; set; }
 
-        [Required]
         public Address Address { get; set; }     
 
-        [Required]
-        public string BankAccountNumber { get; set; } // ?????? creditcard , bank , visa , other ??????
+        public string BankAccountNumber { get; set; } //  bankcontact , visa 
 
-        [Index(IsUnique=true)]
-        [Required]
+        //[Index(IsUnique = true)]
         public string Phone { get; set; }
 
 

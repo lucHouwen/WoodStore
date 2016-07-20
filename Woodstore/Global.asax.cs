@@ -1,6 +1,7 @@
 ﻿using DatabaseCommunicator;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.IO;
 using System.Linq;
 using System.Web;
@@ -20,7 +21,7 @@ namespace Woodstore
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-            WoodStoreSeeder seeder = new WoodStoreSeeder();
+            Database.SetInitializer(new WoodStoreSeeder());
         }
     }
 }

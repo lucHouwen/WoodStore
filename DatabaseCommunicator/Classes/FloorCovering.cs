@@ -10,6 +10,7 @@ namespace DatabaseCommunicator.Classes
     {
         public int FloorCoveringID { get; set; }
 
+        public string Reference { get; set; }
         public string Type { get; set; }
 
         public double Length { get; set; }
@@ -25,8 +26,9 @@ namespace DatabaseCommunicator.Classes
 
         }
 
-        public FloorCovering(string name, Unit unit, decimal priceForUnit,string picture, string type, double length, double width, double height, Color color,bool standard) :base(name, unit, priceForUnit, picture)
+        public FloorCovering(string name, Unit unit, decimal priceForUnit,string picture, string reference,string type, double length, double width, double height, Color color,bool standard) :base(name, unit, priceForUnit, picture)
         {
+            Reference = reference;
             Type = type;
             Length = length;
             Width = width;

@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Validation;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -12,12 +13,12 @@ namespace DatabaseCommunicator
         #region Public Methods
 
         // INSERTS   
-        public async static void InsertAccount(Account account)
+        public static void InsertAccount(Account account)
         {
             using (WoodStoreDbContext ctx = new WoodStoreDbContext())
             {
                 ctx.Accounts.Add(account);
-                await ctx.SaveChangesAsync();
+                ctx.SaveChanges();
             }
         }       
         public async static void InsertToken(string token, int id)
@@ -91,21 +92,29 @@ namespace DatabaseCommunicator
         {
             using (WoodStoreDbContext ctx = new WoodStoreDbContext())
             {
-                if (ctx.Accounts.Any(a => a.Username == checkAccount.Username))
-                {
-                    // exists
-                    return true;
+                try {
+                    if (ctx.Accounts.Any() && ctx.Accounts.Any(a => a.Username == checkAccount.Username))
+                    {
+                        // exists
+                        return true;
+                    }
+                    return false;
                 }
-                return false;
+                catch(Exception e)
+                {
+                    int i = 0; return false;
+                }
             }
         }
         public static bool ConfirmAccount(string confirmationToken)
         {
             using (WoodStoreDbContext ctx = new WoodStoreDbContext())
             {
-                Account user = ctx.Accounts.SingleOrDefault(u => u.ConfirmationToken == confirmationToken);
-                if (user != null)
+                try
                 {
+                    Account user = ctx.Accounts.Include("Address").SingleOrDefault(u => u.ConfirmationToken == confirmationToken);
+                if (user != null) // .DbEntityValidationException
+                {                               
                     user.IsConfirmed = true;
                     user.ConfirmationToken = null;
                     DbSet<Account> dbSet = ctx.Set<Account>();
@@ -118,6 +127,12 @@ namespace DatabaseCommunicator
                 else
                 {
                     return false;
+                }
+                }
+                catch (DbEntityValidationException e)
+                {
+
+                    throw;
                 }
             }
         }

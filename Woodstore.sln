@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseCommunicator", "Dat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46A0A227-59F1-4171-891A-39EBBE2CD318}"
 	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
+		TODO.rtf = TODO.rtf
 		WoodStore bewerkt.odt = WoodStore bewerkt.odt
 	EndProjectSection
 EndProject

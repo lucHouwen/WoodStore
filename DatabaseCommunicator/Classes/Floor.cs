@@ -11,6 +11,8 @@ namespace DatabaseCommunicator.Classes
     {
         public int FloorID { get; set; }
 
+        public string Reference { get; set; }
+
         public Color Color { get; set; }   
 
         public string ClickSystem { get; set; }
@@ -23,20 +25,23 @@ namespace DatabaseCommunicator.Classes
         public short BoxesPerPallet { get; set; }
         public decimal PricePerSquareMeter { get; set; }
 
-        public List<FloorCovering> FloorCovering { get; set; }
+        public List<FloorCovering> FloorCoverings { get; set; }
 
-        public Floor(string name , Unit unit,decimal priceForUnit, Color color, string picutre, 
-                     string type, double length, double width, double height,
-                     double piecePerBox, short boxesPerPallet, decimal pricePerSquareMeter, List<FloorCovering> floorCoverings) : base(name,unit,priceForUnit, picutre)
+        public Floor(string name , Unit unit,decimal priceForUnit,string picture ,string reference,Color color, 
+                     string clicksystem, double length, double width, double height,double piecePerBox, short boxesPerPallet,
+                     decimal pricePerSquareMeter, List<FloorCovering> floorCoverings)
+            : base(name,unit,priceForUnit, picture)
         {
+            Reference = reference;
             Color = color;
-            ClickSystem = type;
+            ClickSystem = clicksystem;
             Length = length;
             Width = width;
             Height = height;
             PiecePerBox = piecePerBox;
             BoxesPerPallet = boxesPerPallet;
-            PricePerSquareMeter = pricePerSquareMeter;    
+            PricePerSquareMeter = pricePerSquareMeter;
+            FloorCoverings = floorCoverings;
         }
        
 
