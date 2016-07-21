@@ -336,6 +336,7 @@
     <Content Include="Views\Admin\ControlPanel.cshtml" />
     <Content Include="Views\Product\Isolation.cshtml" />
     <Content Include="Views\Product\Glue.cshtml" />
+    <Content Include="Views\Shared\UnvalidCreditcard.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

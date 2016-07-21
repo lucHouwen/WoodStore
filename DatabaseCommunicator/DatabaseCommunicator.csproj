@@ -83,6 +83,7 @@
     <Compile Include="Classes\Profile.cs" />
     <Compile Include="Classes\Unit.cs" />
     <Compile Include="Classes\Vinyl.cs" />
+    <Compile Include="CreditcardChecker.cs" />
     <Compile Include="DataBaseHandler.cs" />
     <Compile Include="Hasher.cs" />
     <Compile Include="Mailer.cs" />

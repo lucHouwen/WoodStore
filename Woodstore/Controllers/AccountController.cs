@@ -26,10 +26,18 @@ namespace Woodstore.Controllers
         {           
             if (ModelState.IsValid)
             {
-                // TODO checks for Nr , zipcode , bank ....
-                Country country = new Country(model.Country);
+                Country country = new Country(model.Country);           
                 City city = new City(model.City, Convert.ToInt32(model.Zipcode), country);
                 Address address = new Address(model.Street, model.Number, model.Box, city);
+
+                if (CreditcardChecker.IsValidNumber(model.BankAccountNumber) && 
+                    CreditcardChecker.PassesLuhnTest(model.BankAccountNumber ) ||
+                    CreditcardChecker.PassesElfProef(model.BankAccountNumber))
+                {
+                    // valid bank nr   
+                    bool valid = true;    
+                }                
+                else { return View("UnvalidCreditcard"); }             
 
                 try
                 {

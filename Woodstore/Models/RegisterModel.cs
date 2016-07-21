@@ -36,8 +36,8 @@ namespace Woodstore.Models
         public int Number { get; set; }
 
         [Display(Name = "Box")]
-        [MinLength(1, ErrorMessage = "box number must be atleast 1 characters long")]
-        [MaxLength(10, ErrorMessage = "box number cannot be longer than 10 characters")]
+        //[MinLength(1, ErrorMessage = "box number must be atleast 1 characters long")]
+        //[MaxLength(10, ErrorMessage = "box number cannot be longer than 10 characters")]
         public string Box { get; set; }
 
         [Required(ErrorMessage = "Zipcode is required !")]
@@ -56,7 +56,8 @@ namespace Woodstore.Models
 
         [Required(ErrorMessage = "Visa or Bankcontact is required !")]
         [Display(Name = "Bank (Visa or Bankcontact)")]
-        public string BankAccountNumber { get; set; } // ?????? creditcard , bank , visa , other ??????
+        [DataType(DataType.Password)]
+        public string BankAccountNumber { get; set; } 
 
         [Required(ErrorMessage = "Telephone is required !")]
         [Index(IsUnique = true)]
