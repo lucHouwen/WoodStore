@@ -49,8 +49,10 @@
 
     <!--GOOGLE MAP start-->
     <div class="line6">
-        <script src="http://maps.googleapis.com/maps/api/js"></script>
-        <script>
+
+        @*<script src="http://maps.googleapis.com/maps/api/js"></script>*@
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATEolyLitnLysow3hkL8yaY5kuEEuFiP0&callback=initMap"></script>
+        <script> 
                 function initialize() {
                     var mapProp = {
                         center: new google.maps.LatLng(51.508742, -0.120850),
