@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace DatabaseCommunicator.Classes
 {
+    [Table("Floors")]
     public class Floor : Product
     {
         public int FloorID { get; set; }

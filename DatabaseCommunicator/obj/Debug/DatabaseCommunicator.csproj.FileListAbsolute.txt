@@ -9,3 +9,4 @@ C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator
 C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\obj\Debug\DatabaseCommunicator.dll
 C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\obj\Debug\DatabaseCommunicator.pdb
+C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\obj\Debug\DatabaseCommunicator.csprojResolveAssemblyReference.cache

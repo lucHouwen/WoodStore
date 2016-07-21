@@ -1,6 +1,9 @@
-﻿namespace DatabaseCommunicator.Classes
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace DatabaseCommunicator.Classes
 {
-   public class Profile : FloorCovering
+    [Table("Profiles")]
+    public class Profile : FloorCovering
     {
         public int ProfileID { get; set; }
 

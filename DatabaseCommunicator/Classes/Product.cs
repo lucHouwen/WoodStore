@@ -17,6 +17,7 @@ namespace DatabaseCommunicator.Classes
         public decimal PriceForUnit { get; set; }
         public string Picture { get; set; }
         public bool IsActive { get; set; }
+        public List<Offer> Offers { get; set; }
 
         public Product() {  }
 

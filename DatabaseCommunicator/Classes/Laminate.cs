@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DatabaseCommunicator.Classes
 {
+    [Table("Laminates")]
     public class Laminate : Floor
     {
         public int LaminateID { get; set; }    

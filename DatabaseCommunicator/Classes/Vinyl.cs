@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 namespace DatabaseCommunicator.Classes
 {
+    [Table("Vinyls")]
     public class Vinyl : Floor
     {
         public int VinylID { get; set; }      

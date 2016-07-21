@@ -1,5 +1,8 @@
-﻿namespace DatabaseCommunicator.Classes
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace DatabaseCommunicator.Classes
 {
+    [Table("Plinths")]
     public class Plinth : FloorCovering
     {
         public int PlinthID { get; set; }
