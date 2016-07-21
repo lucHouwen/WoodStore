@@ -15,7 +15,7 @@ namespace Woodstore
     {
         protected void Application_Start()
         {
-            string path = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.FullName + @"\DatabaseCommunicator";
+            string path = Directory.GetParent(AppDomain.CurrentDomain.BaseDirectory).Parent.FullName + @"\DatabaseCommunicator\Database";
             AppDomain.CurrentDomain.SetData("DataDirectory", path);
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

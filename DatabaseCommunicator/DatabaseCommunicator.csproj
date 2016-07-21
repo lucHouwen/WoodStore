@@ -84,13 +84,16 @@
     <Compile Include="Classes\Unit.cs" />
     <Compile Include="Classes\Vinyl.cs" />
     <Compile Include="CreditcardChecker.cs" />
-    <Compile Include="DataBaseHandler.cs" />
+    <Compile Include="CustomValidation\CreditCardValidation.cs" />
+    <Compile Include="CustomValidation\PhoneNumberValidation.cs" />
+    <Compile Include="Database\DataBaseHandler.cs" />
     <Compile Include="Hasher.cs" />
     <Compile Include="Mailer.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WoodStoreDbContext.cs" />
-    <Compile Include="WoodStoreSeeder.cs" />
+    <Compile Include="Repository.cs" />
+    <Compile Include="Database\WoodStoreDbContext.cs" />
+    <Compile Include="Database\WoodStoreSeeder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -109,10 +112,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="WoodStore.mdf">
+    <Content Include="Database\WoodStore.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="WoodStore_log.ldf">
+    <Content Include="Database\WoodStore_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>WoodStore.mdf</DependentUpon>
     </Content>

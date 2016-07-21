@@ -23,36 +23,31 @@ namespace Woodstore.Controllers
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public ActionResult Register(RegisterModel model)
-        {           
+        {
             if (ModelState.IsValid)
             {
-                Country country = new Country(model.Country);           
+                Country country = new Country(model.Country);
                 City city = new City(model.City, Convert.ToInt32(model.Zipcode), country);
                 Address address = new Address(model.Street, model.Number, model.Box, city);
 
-                if (CreditcardChecker.IsValidNumber(model.BankAccountNumber))
-                {// valid bank nr   
+                string confirmationToken = (Guid.NewGuid().ToString()).Replace("-", "");
 
-                    string confirmationToken = (Guid.NewGuid().ToString()).Replace("-", "");
+                Account account = new Account(model.Firstname, model.Lastname, address, model.Phone, model.BankAccountNumber, model.Username, model.Password, model.Email, false, confirmationToken);
+                // split up username check and email
+                if (!DataBaseHandler.UsernameExist(account) || !DataBaseHandler.EmailExist(model.Email))
+                {
+                    DataBaseHandler.InsertAccount(account);
+                    string callbackUrl = Url.Action("RegisterConfirmation", "Account", new { Id = confirmationToken }, protocol: Request.Url.Scheme);
+                    string body = @"<h4>Welcome , </h4><p></p><p>To get started, please click <a href=""" + callbackUrl + @""">here</a> to activate your account.</p>";
 
-                    Account account = new Account(model.Firstname, model.Lastname, address, model.Phone, model.BankAccountNumber, model.Username, model.Password, model.Email, false, confirmationToken);
-                    // split up username check and email
-                    if (!DataBaseHandler.UsernameExist(account) || !DataBaseHandler.EmailExist(model.Email))
+                    try
                     {
-                        DataBaseHandler.InsertAccount(account);
-                        string callbackUrl = Url.Action("RegisterConfirmation", "Account", new { Id = confirmationToken }, protocol: Request.Url.Scheme);
-                        string body = @"<h4>Welcome , </h4><p></p><p>To get started, please click <a href=""" + callbackUrl + @""">here</a> to activate your account.</p>";
-
-                        try
-                        {
-                            Mailer.Mail(model.Email, "Email Confirmation", string.Format(body), null, "Sincerely yours");
-                            return View("ConfirmEmail");
-                        }
-                        catch { return View("ConfirmEmailError"); }
+                        Mailer.Mail(model.Email, "Email Confirmation", string.Format(body), null, "Sincerely yours");
+                        return View("ConfirmEmail");
                     }
-                    else { return View("EmailExist"); }
-                }                
-                else { return View("UnvalidCreditcard"); } // todo redirect to register page or create vamidation error !       
+                    catch { return View("ConfirmEmailError"); }
+                }
+                else { return View("EmailExist"); }
             }
             else { return View(); }
         }

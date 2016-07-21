@@ -1,9 +1,7 @@
-﻿using DatabaseCommunicator.Classes;
-using System;
-using System.Collections.Generic;
+﻿using DatabaseCommunicator;
+//using DatabaseCommunicator.CustomValidation;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace Woodstore.Models
 {
@@ -56,7 +54,7 @@ namespace Woodstore.Models
 
         [Required(ErrorMessage = "Visa or Bankcontact is required !")]
         [Display(Name = "Bank (Visa or Bankcontact)")]
-        //[DataType(DataType.Password)]
+        [CreditCardValidation]
         public string BankAccountNumber { get; set; } 
 
         [Required(ErrorMessage = "Telephone is required !")]

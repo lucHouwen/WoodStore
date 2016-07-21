@@ -164,7 +164,7 @@ namespace DatabaseCommunicator
         {
             /* rest of division from first 10 nrs %97 has to be equal to last 2 nrs. */  
                            
-            if (long.TryParse(cardNumber, out validnumber))
+            if (cardNumber.Length == 12 && long.TryParse(cardNumber, out validnumber))
             {
                 firstTen = cardNumber.Substring(0, 10);
                 lastTwo = Convert.ToInt32(cardNumber.Substring(10, 2));
