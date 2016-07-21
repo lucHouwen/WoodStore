@@ -56,7 +56,7 @@ namespace Woodstore.Models
 
         [Required(ErrorMessage = "Visa or Bankcontact is required !")]
         [Display(Name = "Bank (Visa or Bankcontact)")]
-        [DataType(DataType.Password)]
+        //[DataType(DataType.Password)]
         public string BankAccountNumber { get; set; } 
 
         [Required(ErrorMessage = "Telephone is required !")]

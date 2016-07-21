@@ -30,17 +30,9 @@ namespace Woodstore.Controllers
                 City city = new City(model.City, Convert.ToInt32(model.Zipcode), country);
                 Address address = new Address(model.Street, model.Number, model.Box, city);
 
-                if (CreditcardChecker.IsValidNumber(model.BankAccountNumber) && 
-                    CreditcardChecker.PassesLuhnTest(model.BankAccountNumber ) ||
-                    CreditcardChecker.PassesElfProef(model.BankAccountNumber))
-                {
-                    // valid bank nr   
-                    bool valid = true;    
-                }                
-                else { return View("UnvalidCreditcard"); }             
+                if (CreditcardChecker.IsValidNumber(model.BankAccountNumber))
+                {// valid bank nr   
 
-                try
-                {
                     string confirmationToken = (Guid.NewGuid().ToString()).Replace("-", "");
 
                     Account account = new Account(model.Firstname, model.Lastname, address, model.Phone, model.BankAccountNumber, model.Username, model.Password, model.Email, false, confirmationToken);
@@ -59,8 +51,8 @@ namespace Woodstore.Controllers
                         catch { return View("ConfirmEmailError"); }
                     }
                     else { return View("EmailExist"); }
-                }
-                catch(Exception e){ int i = 0; return View(); }
+                }                
+                else { return View("UnvalidCreditcard"); } // todo redirect to register page or create vamidation error !       
             }
             else { return View(); }
         }

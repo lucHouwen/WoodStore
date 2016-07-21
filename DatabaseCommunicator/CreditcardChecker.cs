@@ -6,6 +6,9 @@ namespace DatabaseCommunicator
    public class CreditcardChecker
     {
         private const string cardRegex = "^(?:(?<Visa>4\\d{3})|(?<MasterCard>5[1-5]\\d{2})|(?<Discover>6011)|(?<DinersClub>(?:3[68]\\d{2})|(?:30[0-5]\\d))|(?<Amex>3[47]\\d{2}))([ -]?)(?(DinersClub)(?:\\d{6}\\1\\d{4})|(?(Amex)(?:\\d{6}\\1\\d{5})|(?:\\d{4}\\1\\d{4}\\1\\d{4})))$";
+        private static string firstTen; // first 10 nrs
+        private static long validnumber; // complete card nr
+        private static int lastTwo; // last 2 nrs
 
         public static bool IsValidNumber(string cardNum)
         {
@@ -14,12 +17,22 @@ namespace DatabaseCommunicator
             //Determine the card type based on the number
             CreditCardType? cardType = GetCardTypeFromNumber(cardNum);
 
-            //Call the base version of IsValidNumber and pass the 
-            //number and card type
-            if (IsValidNumber(cardNum, cardType))
-                return true;
+            if (!(cardType == CreditCardType.Maestro))
+            {
+                //Call the base version of IsValidNumber and pass the number and card type
+                if (IsValidNumber(cardNum, cardType))
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
             else
-                return false;
+            {
+                return true;
+            }
         }
 
         public static bool IsValidNumber(string cardNum, CreditCardType? cardType)
@@ -69,6 +82,10 @@ namespace DatabaseCommunicator
             {
                 return CreditCardType.Visa;
             }
+            else if(PassesModuloTest(cardNum))
+            {
+                return CreditCardType.Maestro;
+            }
             else
             {
                 //Card type is not supported by our system, return null
@@ -112,19 +129,16 @@ namespace DatabaseCommunicator
 
         public static bool PassesLuhnTest(string cardNumber)
         {
-            //Clean the card number- remove dashes and spaces
+            //Clean the card number - remove dashes and spaces
             cardNumber = cardNumber.Replace("-", "").Replace(" ", "");
 
             //Convert card number into digits array
             int[] digits = new int[cardNumber.Length];
             for (int len = 0; len < cardNumber.Length; len++)
             {
-                digits[len] = Int32.Parse(cardNumber.Substring(len, 1));
+                digits[len] = int.Parse(cardNumber.Substring(len, 1));
             }
-
-            //Luhn Algorithm
-            //Adapted from code availabe on Wikipedia at
-            //http://en.wikipedia.org/wiki/Luhn_algorithm
+                      
             int sum = 0;
             bool alt = false;
             for (int i = digits.Length - 1; i >= 0; i--)
@@ -146,9 +160,21 @@ namespace DatabaseCommunicator
             return sum % 10 == 0;
         }
 
-        public static bool PassesElfProef(string cardNumber)
+        public static bool PassesModuloTest(string cardNumber)
         {
-            return true;
+            /* rest of division from first 10 nrs %97 has to be equal to last 2 nrs. */  
+                           
+            if (long.TryParse(cardNumber, out validnumber))
+            {
+                firstTen = cardNumber.Substring(0, 10);
+                lastTwo = Convert.ToInt32(cardNumber.Substring(10, 2));
+
+                if(Convert.ToInt32(firstTen)% 97 == lastTwo)
+                { return true; }
+
+                else { return false; }             
+            }
+            else { return false; }           
         }
     }
 
@@ -157,6 +183,7 @@ namespace DatabaseCommunicator
         Visa,
         MasterCard,
         Amex,
+        Maestro
     }
 }
 
