@@ -30,10 +30,15 @@ namespace DatabaseCommunicator.CustomValidation
             */
             long validPhone;   
             if (value.ToString().Length > 8 && value.ToString().Length < 11 && long.TryParse(value.ToString(), out validPhone))
-            {                                            
-                return ValidationResult.Success;
+            {
+                long phone;    
+                if(long.TryParse(value.ToString(),out phone))
+                {
+                    return ValidationResult.Success;
+                }
+                else { return new ValidationResult("Numbers only please."); }
             }
-            return new ValidationResult("Creditcard number or format is not valid.");
+            return new ValidationResult("Phone number format is not valid.");
         }
     }
 }

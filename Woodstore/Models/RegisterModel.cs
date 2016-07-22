@@ -1,5 +1,5 @@
 ﻿using DatabaseCommunicator;
-//using DatabaseCommunicator.CustomValidation;
+using DatabaseCommunicator.CustomValidation;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -60,6 +60,7 @@ namespace Woodstore.Models
         [Required(ErrorMessage = "Telephone is required !")]
         [Index(IsUnique = true)]
         [Display(Name = "Telephone")]
+        [PhoneNumberValidation]
         public string Phone { get; set; }
       
 
