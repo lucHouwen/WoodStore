@@ -167,6 +167,7 @@
     </Compile>
     <Compile Include="Models\AccountModel.cs" />
     <Compile Include="Models\AccountPageModel.cs" />
+    <Compile Include="Models\AdminModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\LostPasswordModel.cs" />
     <Compile Include="Models\OrderModel.cs" />
@@ -176,6 +177,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\AccountForms.css" />
+    <Content Include="Content\AdminSidemenu.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\CustomRibbonMenu.css" />
