@@ -5,8 +5,8 @@ using System.Data.Entity;
 namespace DatabaseCommunicator
 {
    public class WoodStoreSeeder :
-    //DropCreateDatabaseAlways<WoodStoreDbContext>
-    DropCreateDatabaseIfModelChanges<WoodStoreDbContext>
+    DropCreateDatabaseAlways<WoodStoreDbContext>
+    //DropCreateDatabaseIfModelChanges<WoodStoreDbContext>
     {
         protected override void Seed(WoodStoreDbContext ctx)
         {

@@ -134,7 +134,6 @@ namespace Woodstore.Controllers
 
         [HttpPost]
         [AllowAnonymous]
-        [ValidateAntiForgeryToken]
         public ActionResult LostPassword(LostPasswordModel model)
         {
             if (ModelState.IsValid)
@@ -152,7 +151,7 @@ namespace Woodstore.Controllers
                     try
                     {
                         Mailer.Mail(model.Email, "Lost Password", string.Format(body), null, "Sincerely yours");
-                        return RedirectToAction("Login", "Account");
+                        return View("LostPasswordSucces");
                     }
                     catch { return View("ConfirmEmailError"); }
                 }
@@ -180,6 +179,8 @@ namespace Woodstore.Controllers
         {
             ResetPasswordModel model = new ResetPasswordModel();
             model.PasswordToken = Id;
+            TempData["ResetPasswordModel"] = model;
+            TempData.Keep("ResetPasswordModel");
             return View(model);
         }
 
@@ -188,11 +189,17 @@ namespace Woodstore.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult ResetPassword(ResetPasswordModel model)
         {
-            if (DataBaseHandler.ChangePassword(model.PasswordToken, model.Password))
+            if (ModelState.IsValid)
             {
-                return RedirectToAction("Login", "Account");
+                string pass = model.Password;
+                model = (ResetPasswordModel)TempData["ResetPasswordModel"];
+                if (DataBaseHandler.ChangePassword(model.PasswordToken, pass))
+                {
+                    return RedirectToAction("Login", "Account");
+                }
+                return View("PasswordResetError");
             }
-            return View("PasswordResetError");
+            return View();
         }
 
         #endregion Public Methods

@@ -7,7 +7,8 @@ namespace Woodstore.Models
         #region Public Properties
 
         [Required(ErrorMessage = "Email is required !")]
-        [Display(Name = "MyMail@gmail.com")]
+        [Display(Name = "Email :")]
+        [DataType(DataType.EmailAddress, ErrorMessage = "Please enter a valid email address")]
         [EmailAddress(ErrorMessage = "Email address not in a correct format.")]
         public string Email { get; set; }
 

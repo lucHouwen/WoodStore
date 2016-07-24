@@ -21,13 +21,13 @@ namespace DatabaseCommunicator
                 ctx.SaveChanges();
             }
         }       
-        public async static void InsertToken(string token, int id)
+        public static void InsertToken(string token, int id)
         {
             using (WoodStoreDbContext ctx = new WoodStoreDbContext())
             {
                 Account foundAccount = ctx.Accounts.Where(a => a.AccountID == id).Single();
                 foundAccount.PasswordToken = token;
-                await ctx.SaveChangesAsync();
+                ctx.SaveChanges();
             }
         }             
         public static Account GetAccount(Account account)
@@ -99,7 +99,6 @@ namespace DatabaseCommunicator
                 return false;
             }
         }
-
         public static bool UsernameExist(Account checkAccount)
         {
             using (WoodStoreDbContext ctx = new WoodStoreDbContext())
@@ -176,11 +175,11 @@ namespace DatabaseCommunicator
                     DbSet<Account> dbSet = ctx.Set<Account>();
                     dbSet.Attach(user);
                     ctx.Entry(user).State = EntityState.Modified;
-                    ctx.SaveChangesAsync();
+                    ctx.SaveChanges();
                     return true;
                 }
+                return false;
             }
-            return false;
         }
 
         #endregion Public Methods
