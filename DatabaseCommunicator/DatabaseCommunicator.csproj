@@ -85,7 +85,9 @@
     <Compile Include="Classes\Vinyl.cs" />
     <Compile Include="CreditcardChecker.cs" />
     <Compile Include="CustomValidation\CreditCardValidation.cs" />
+    <Compile Include="CustomValidation\EmailChecker.cs" />
     <Compile Include="CustomValidation\PhoneNumberValidation.cs" />
+    <Compile Include="CustomValidation\UsernameChecker.cs" />
     <Compile Include="Database\DataBaseHandler.cs" />
     <Compile Include="Hasher.cs" />
     <Compile Include="Mailer.cs" />

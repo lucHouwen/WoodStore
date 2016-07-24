@@ -33,21 +33,17 @@ namespace Woodstore.Controllers
                 string confirmationToken = (Guid.NewGuid().ToString()).Replace("-", "");
 
                 Account account = new Account(model.Firstname, model.Lastname, address, model.Phone, model.BankAccountNumber, model.Username, model.Password, model.Email, false, confirmationToken);
-                // split up username check and email
-                if (!DataBaseHandler.UsernameExist(account) || !DataBaseHandler.EmailExist(model.Email))
-                {
-                    DataBaseHandler.InsertAccount(account);
-                    string callbackUrl = Url.Action("RegisterConfirmation", "Account", new { Id = confirmationToken }, protocol: Request.Url.Scheme);
-                    string body = @"<h4>Welcome , </h4><p></p><p>To get started, please click <a href=""" + callbackUrl + @""">here</a> to activate your account.</p>";
 
-                    try
-                    {
-                        Mailer.Mail(model.Email, "Email Confirmation", string.Format(body), null, "Sincerely yours");
-                        return View("ConfirmEmail");
-                    }
-                    catch { return View("ConfirmEmailError"); }
+                DataBaseHandler.InsertAccount(account);
+                string callbackUrl = Url.Action("RegisterConfirmation", "Account", new { Id = confirmationToken }, protocol: Request.Url.Scheme);
+                string body = @"<h4>Welcome to WoodStore, </h4><p></p><p>To get started, please click <a href=""" + callbackUrl + @""">here</a> to activate your account.</p>";
+
+                try
+                {
+                    Mailer.Mail(model.Email, "Email Confirmation", string.Format(body), null, "Sincerely yours");
+                    return View("ConfirmEmail");
                 }
-                else { return View("EmailExist"); }
+                catch { return View("ConfirmEmailError"); }
             }
             else { return View(); }
         }
@@ -81,9 +77,7 @@ namespace Woodstore.Controllers
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public ActionResult Login(LoginModel model)
-        {            
-            //var username = Request.Form["username"];
-            //var password = Request.Form["password"];
+        {                      
             var remember = Request.Form["checkbox"];
             if (model.Username != string.Empty && model.Password != string.Empty)
             {

@@ -88,6 +88,18 @@ namespace DatabaseCommunicator
                 else { return false; }
             }
         }
+        public static bool UsernameExist(string username)
+        {
+            using (WoodStoreDbContext ctx = new WoodStoreDbContext())
+            {
+                if (ctx.Accounts.Any() && ctx.Accounts.Any(a => a.Username == username))
+                {   // exists
+                    return true;
+                }
+                return false;
+            }
+        }
+
         public static bool UsernameExist(Account checkAccount)
         {
             using (WoodStoreDbContext ctx = new WoodStoreDbContext())

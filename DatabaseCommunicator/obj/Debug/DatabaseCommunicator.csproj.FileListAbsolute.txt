@@ -10,15 +10,3 @@ C:\Users\Viencent\Desktop\WoodStore\DatabaseCommunicator\bin\Debug\EntityFramewo
 C:\Users\Viencent\Desktop\WoodStore\DatabaseCommunicator\obj\Debug\DatabaseCommunicator.csprojResolveAssemblyReference.cache
 C:\Users\Viencent\Desktop\WoodStore\DatabaseCommunicator\obj\Debug\DatabaseCommunicator.dll
 C:\Users\Viencent\Desktop\WoodStore\DatabaseCommunicator\obj\Debug\DatabaseCommunicator.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\bin\Debug\Database\WoodStore.mdf
-C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\bin\Debug\Database\WoodStore_log.ldf
-C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\bin\Debug\DatabaseCommunicator.dll.config
-C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\bin\Debug\DatabaseCommunicator.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\bin\Debug\DatabaseCommunicator.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\bin\Debug\EntityFramework.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\bin\Debug\EntityFramework.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\obj\Debug\DatabaseCommunicator.dll
-C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\obj\Debug\DatabaseCommunicator.pdb
-C:\Users\Mystical Place\Desktop\WoodStore Project\WoodStore\DatabaseCommunicator\obj\Debug\DatabaseCommunicator.csprojResolveAssemblyReference.cache

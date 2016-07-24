@@ -68,10 +68,12 @@ namespace Woodstore.Models
         [Display(Name = "Username")]
         [MinLength(3, ErrorMessage = "Username must be atleast 3 characters long")]
         [MaxLength(50, ErrorMessage = "Username cannot be longer than 50 characters")]
+        [UsernameChecker]
         public string Username { get; set; }
 
         [Required(ErrorMessage = "Email is required !")]
         [Display(Name = "Email")]
+        [EmailChecker]
         [EmailAddress(ErrorMessage = "Email is not in a correct format !")]
         [DataType(DataType.EmailAddress, ErrorMessage = "Please enter a valid email address")]
         public string Email { get; set; }

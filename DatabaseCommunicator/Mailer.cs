@@ -37,7 +37,7 @@ namespace DatabaseCommunicator
                         smtp.Send(message);
                     }
                 }
-                catch {  }
+                catch(Exception e) { int i = 0;  }
             }
         }
 
